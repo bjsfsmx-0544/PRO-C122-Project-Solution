@@ -1,4 +1,4 @@
-# Text Data Preprocessing Lib
+# PRUEBA ESPAÑOL
 import nltk
 nltk.download('punkt')
 nltk.download('wordnet')
@@ -14,9 +14,9 @@ import numpy as np
 import random
 
 
-words=[] #list of unique roots words in the data
-classes = [] #list of unique tags in the data
-pattern_word_tags_list = [] #list of the pair of (['words', 'of', 'the', 'sentence'], 'tags')
+words=[] # Lista de raíces de palabras únicas en los datos
+classes = [] #Lista de etiquetas únicas en los datos
+pattern_word_tags_list = [] # List de pares de la forma (['palabras', 'de', 'la', 'oración'], 'etiquetas')
 
 ignore_words = ['?', '!',',','.', "'s", "'m"]
 
